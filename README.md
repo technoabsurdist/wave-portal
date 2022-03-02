@@ -1,4 +1,4 @@
-# Basic Sample Hardhat Project
+# Emi's Wave Portal 
 This project is based on https://app.buildspace.so/ introductory project for learning solidity and Ethereum. 
 
 *How do you actually run this?* <br />

@@ -11,23 +11,24 @@ For it to work, you need to create an alchemy account, get your key, and use Met
 <br /> 
 With that information, you would create a `.env` file and put it there: 
 <br />
-    ```shell
-    STAGING_ALCHEMY_KEY=BLAHBLAH
-    PROD_ALCHEMY_KEY=BLAHBLAH
-    PRIVATE_KEY=BLAHBLAH
-    ```
+```shell
+STAGING_ALCHEMY_KEY=BLAHBLAH
+PROD_ALCHEMY_KEY=BLAHBLAH
+PRIVATE_KEY=BLAHBLAH
+```
 <br /> 
 _Hardhat basic commands:_ 
 
-    ```shell
-    npx hardhat accounts
-    npx hardhat compile
-    npx hardhat clean
-    npx hardhat test
-    npx hardhat node
-    node scripts/sample-script.js
-    npx hardhat help
-    ```
+```shell
+npx hardhat accounts
+npx hardhat compile
+npx hardhat clean
+npx hardhat test
+npx hardhat node
+node scripts/sample-script.js
+npx hardhat help
+```
+<br />
 *Sample UI, currently lives in Rinkeby network at: `0x55E0456a107F70b24C4107c25101651B42F1ED09`. 
 <br />
 

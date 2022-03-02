@@ -9,13 +9,17 @@ The best way to run this project on the `rinkeby` test network is done by runnin
 For it to work, you need to create an alchemy account, get your key, and use Metamask and get your private key. 
 <br /> 
 With that information, you would create a `.env` file and put it there: 
-    ```
-    STAGING_ALCHEMY_KEY=BLAHBLAH
-    PROD_ALCHEMY_KEY=BLAHBLAH
-    PRIVATE_KEY=BLAHBLAH
-    ```
+<br />
 
-*Hardhat basic commands:* 
+```shell
+STAGING_ALCHEMY_KEY=BLAHBLAH
+PROD_ALCHEMY_KEY=BLAHBLAH
+PRIVATE_KEY=BLAHBLAH
+```
+
+<br /> 
+<br /> 
+_Hardhat basic commands:_ 
 ```shell
 npx hardhat accounts
 npx hardhat compile
@@ -26,4 +30,5 @@ node scripts/sample-script.js
 npx hardhat help
 ```
 *Sample UI, currently lives in Rinkeby network at: `0x55E0456a107F70b24C4107c25101651B42F1ED09`. 
+<br />
 ![demo](https://user-images.githubusercontent.com/92827957/156304225-bfddaf9d-c40b-4d5c-9ccc-433ed850304c.png)

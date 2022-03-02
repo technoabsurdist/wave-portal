@@ -31,9 +31,9 @@ npx hardhat help
 ```
 <br />
 *Sample UI, currently lives in Rinkeby network at: 
-```shell
-0x55E0456a107F70b24C4107c25101651B42F1ED09
-```
+
+> 0x55E0456a107F70b24C4107c25101651B42F1ED09
+
 
 <br />
 

@@ -2,9 +2,12 @@
 This project is based on https://app.buildspace.so/ introductory project for learning solidity and Ethereum. 
 
 *How do you actually run this?* <br />
-The best way to run this project on the `rinkeby` test network is done by running: 
+<br />
+The best way to run this project on the `rinkeby` test network is done by running: <br />
     `npx hardhat run scripts/deploy.js --network rinkeby`
+<br />
 For it to work, you need to create an alchemy account, get your key, and use Metamask and get your private key. 
+<br /> 
 With that information, you would create a `.env` file and put it there: 
     ```
     STAGING_ALCHEMY_KEY=BLAHBLAH

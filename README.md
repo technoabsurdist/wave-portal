@@ -1,7 +1,7 @@
 # Basic Sample Hardhat Project
 This project is based on https://app.buildspace.so/ introductory project for learning solidity and Ethereum. 
 
-*How do you actually run this?*
+*How do you actually run this?* <br />
 The best way to run this project on the `rinkeby` test network is done by running: 
     `npx hardhat run scripts/deploy.js --network rinkeby`
 For it to work, you need to create an alchemy account, get your key, and use Metamask and get your private key. 

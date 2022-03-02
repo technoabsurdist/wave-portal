@@ -1,9 +1,18 @@
 # Basic Sample Hardhat Project
+This project is based on https://app.buildspace.so/ introductory project for learning solidity and Ethereum. 
 
-This project demonstrates a basic Hardhat use case. It comes with a sample contract, a test for that contract, a sample script that deploys that contract, and an example of a task implementation, which simply lists the available accounts.
+*How do you actually run this?*
+The best way to run this project on the `rinkeby` test network is done by running: 
+    `npx hardhat run scripts/deploy.js --network rinkeby`
+For it to work, you need to create an alchemy account, get your key, and use Metamask and get your private key. 
+With that information, you would create a `.env` file and put it there: 
+    ```
+    STAGING_ALCHEMY_KEY=BLAHBLAH
+    PROD_ALCHEMY_KEY=BLAHBLAH
+    PRIVATE_KEY=BLAHBLAH
+    ```
 
-Try running some of the following tasks:
-
+*Hardhat basic commands:* 
 ```shell
 npx hardhat accounts
 npx hardhat compile
@@ -13,4 +22,5 @@ npx hardhat node
 node scripts/sample-script.js
 npx hardhat help
 ```
+*Sample UI, currently lives in Rinkeby network at: `0x55E0456a107F70b24C4107c25101651B42F1ED09`. 
 ![demo](https://user-images.githubusercontent.com/92827957/156304225-bfddaf9d-c40b-4d5c-9ccc-433ed850304c.png)

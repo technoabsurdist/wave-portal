@@ -30,7 +30,7 @@ node scripts/sample-script.js
 npx hardhat help
 ```
 <br />
-*Sample UI, currently lives in Rinkeby network at: ```0x55E0456a107F70b24C4107c25101651B42F1ED09```. 
+*Sample UI, currently lives in Rinkeby network at: `0x55E0456a107F70b24C4107c25101651B42F1ED09`
 <br />
 
 ![demo](https://user-images.githubusercontent.com/92827957/156304225-bfddaf9d-c40b-4d5c-9ccc-433ed850304c.png)
